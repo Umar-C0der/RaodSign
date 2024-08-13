@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#226200EE"
+    tools:context=".HighwayRulesActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Highway Rules"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/heading">
+
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/subheading1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Traffic Signs and Signals:"
+                android:textStyle="bold"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading1"
+                android:justificationMode="inter_word"
+                android:text="Obey all traffic signs, signals, and road markings. Stop at red lights and proceed when the light turns green. Yield to other vehicles when entering a highway or changing lanes."/>
+
+            <TextView
+                android:id="@+id/subheading2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speed Limits:"
+                android:textStyle="bold"
+                android:layout_below="@id/content1"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading2"
+                android:justificationMode="inter_word"
+                android:text="Adhere to posted speed limits. They may vary depending on the type of road and area. Adjust your speed based on road and weather conditions."/>
+
+            <TextView
+                android:id="@+id/subheading3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lane Discipline:"
+                android:textStyle="bold"
+                android:layout_below="@id/content2"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading3"
+                android:justificationMode="inter_word"
+                android:text="Drive on the right side of the road in countries with right-hand traffic and on the left side in countries with left-hand traffic. Use designated lanes for different types of vehicles, such as carpool lanes or lanes for buses. Use turn signals to indicate your intention to change lanes or make a turn. Keep to your lane and avoid weaving in and out of traffic."/>
+
+
+            <TextView
+                android:id="@+id/subheading4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Overtaking and Passing:"
+                android:textStyle="bold"
+                android:layout_below="@id/content3"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading4"
+                android:justificationMode="inter_word"
+                android:text="Pass slower vehicles on the left side (in countries with right-hand traffic) or on the right side (in countries with left-hand traffic). Signal your intention to overtake or change lanes, and ensure there is enough space and time to do so safely. Do not pass vehicles in no-passing zones or areas with restricted visibility."/>
+
+            <TextView
+                android:id="@+id/subheading5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right of Way:"
+                android:textStyle="bold"
+                android:layout_below="@id/content4"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading5"
+                android:justificationMode="inter_word"
+                android:text="Yield the right of way to pedestrians, cyclists, and emergency vehicles. At intersections, yield to vehicles already in the intersection or those approaching from the right (unless otherwise specified by traffic signals). At roundabouts, yield to vehicles already inside the roundabout."/>
+
+            <TextView
+                android:id="@+id/subheading6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seat Belts and Child Restraints:"
+                android:textStyle="bold"
+                android:layout_below="@id/content5"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading6"
+                android:justificationMode="inter_word"
+                android:text="Ensure all occupants of the vehicle are wearing seat belts. Children should be properly secured in age-appropriate child safety seats or booster seats, as required by law."/>
+
+            <TextView
+                android:id="@+id/subheading7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Distracted Driving:"
+                android:textStyle="bold"
+                android:layout_below="@id/content6"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading7"
+                android:justificationMode="inter_word"
+                android:text="Avoid using mobile phones or other electronic devices while driving, unless using hands-free options.Stay focused on the road and minimize distractions inside the vehicle."/>
+
+
+            <TextView
+                android:id="@+id/subheading8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drinking and Driving:"
+                android:textStyle="bold"
+                android:layout_below="@id/content7"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading8"
+                android:justificationMode="inter_word"
+                android:text="Do not drive under the influence of alcohol or drugs. Follow the legal blood alcohol concentration (BAC) limit in your jurisdiction."/>
+
+            <TextView
+                android:id="@+id/subheading9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Zones and Pedestrian Crossings:"
+                android:textStyle="bold"
+                android:layout_below="@id/content8"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading9"
+                android:justificationMode="inter_word"
+                android:text="Observe reduced speed limits in school zones and near pedestrian crossings. Yield to pedestrians in crosswalks and do not block intersections or pedestrian pathways."/>
+
+            <TextView
+                android:id="@+id/subheading10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School Zones and Pedestrian Crossings:"
+                android:textStyle="bold"
+                android:layout_below="@id/content9"
+                android:layout_marginTop="10dp"
+                android:textSize="17sp"/>
+            <TextView
+                android:id="@+id/content10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subheading10"
+                android:layout_marginBottom="40dp"
+                android:justificationMode="inter_word"
+                android:text="In case of emergencies, pull over to a safe location and contact the appropriate authorities. Use hazard lights or emergency blinkers to indicate a breakdown or hazard on the road."/>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</RelativeLayout>

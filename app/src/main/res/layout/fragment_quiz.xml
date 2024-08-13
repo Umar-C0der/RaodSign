@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#226200EE"
+   android:padding="30dp"
+    tools:context=".QuizFragment">
+
+    <TextView
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Quiz"/>
+
+    <TextView
+        android:id="@+id/termsConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/tc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termsConditions"
+        android:layout_marginTop="20dp"
+        android:text="1 You have to prepare quiz befor start."/>
+
+    <TextView
+        android:id="@+id/tc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tc1"
+        android:text="2 Exit during quiz marks can,t save"/>
+
+    <TextView
+        android:id="@+id/tc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tc2
+"
+        android:text="3 Quiz include all three category of signs."/>
+    <TextView
+        android:id="@+id/tc5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tc4"
+        android:text="4 There are total 20 questions. "/>
+    <TextView
+        android:id="@+id/tc6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tc5"
+        android:text="5 You have only 4 min to complete quiz. "/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:layout_below="@id/tc6"
+        />
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="error"
+        android:visibility="invisible"
+        android:layout_below="@id/checkbox"
+        android:textColor="#F60000"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/startquiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:layout_below="@id/error"
+        android:background="@drawable/custom_text_bg"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+
+</RelativeLayout>

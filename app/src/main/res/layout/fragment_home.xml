@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="#226200EE"
+    tools:context=".HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/signbored"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="@drawable/titalborad"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subCard1"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/signbored"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="180dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgchecklicense"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:background="@drawable/verfylicensenew"/>
+            <TextView
+                android:id="@+id/txtchecklicens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Verfy License"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:layout_below="@+id/imgchecklicense"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subCard2"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/signbored"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgtracklicense"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:background="@drawable/tracknew"/>
+            <TextView
+                android:id="@+id/txttracklicens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Track License"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:layout_below="@+id/imgtracklicense"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subCard3"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/subCard1"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgapply"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:background="@drawable/applynew"/>
+            <TextView
+                android:id="@+id/txtapply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="How to apply"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:layout_below="@+id/imgapply"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/subCard4"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/subCard2"
+        app:cardCornerRadius="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgrule"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:background="@drawable/highwaynew"/>
+            <TextView
+                android:id="@+id/txtrule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Highway Rules"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:textSize="17sp"
+                android:layout_below="@+id/imgrule"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>
